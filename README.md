@@ -20,23 +20,30 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
 - Delete a customer
 - JWT Authentication
 
+
+**Frontend Screens**
+
+1.Login Screen: User login with JWT authentication.
+
+
+2.Customer List Screen: Display list of customers with options to add, update, and delete.
+
+
+3.Add New Customer: Form to add a new customer
 ### Example Customer Object
 
 ```json
 {
-  "first_name": "Jane",
-  "last_name": "Doe",
-  "street": "Elvnu Street",
-  "address": "H no 2",
-  "city": "Delhi",
-  "state": "Delhi",
+  "first_name": "Sad",
+  "last_name": "Naik",
+  "street": "Ram Vilas Street",
+  "address": "H no 15",
+  "city": "Pune",
+  "state": "Maharashtra",
   "email": "sam@gmail.com",
-  "phone": "12345678"
+  "phone": "12789678"
 }
-**Frontend Screens**
-1.Login Screen: User login with JWT authentication.
-2.Customer List Screen: Display list of customers with options to add, update, and delete.
-3.Add New Customer: Form to add a new customer
+
 
 
 
