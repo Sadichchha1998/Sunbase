@@ -46,4 +46,9 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
 
 
 
+**Phase 2 Extension**
+Sync Button: Fetch customer list from a remote API and save/update them in the local database.
+
+
+
 
