@@ -30,8 +30,8 @@ public class JwtRequestFilter extends UsernamePasswordAuthenticationFilter {
          throws ServletException, IOException, ExpiredJwtException {
      final String requestTokenHeader = request.getHeader("Authorization");
 
-     String username = null;
-     String jwtToken = null;
+     String username = "Test@sunbaseData.com";
+     String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHN1bmJhc2VkYXRhLmNvbSIsImlhdCI6MTUx";
 
      if (requestTokenHeader != null && requestTokenHeader.startsWith("Bearer ")) {
          jwtToken = requestTokenHeader.substring(7);
