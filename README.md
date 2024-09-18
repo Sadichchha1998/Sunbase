@@ -1,6 +1,6 @@
 # Sunbase
 # Customer CRUD Application
-
+This application is designed for managing customer information through a comprehensive CRUD interface. It leverages MySQL for database management, Spring Boot for backend services, and HTML/CSS/JavaScript for the frontend. The application also includes JWT authentication and a synchronization feature to fetch and update customer data from an external API using RestTemplate.
 ## Project Overview
 
 This project is a simple CRUD (Create, Read, Update, Delete) application for managing customers. It includes both backend and frontend components, with JWT authentication for secure access.
@@ -61,7 +61,12 @@ spring.datasource.password=2580
 }
 
 ```
-
+**API Endpoint **
+**GET** /api/sunBase/getCustomers - Retrieve all customers, requiring JWT authentication.
+**GET** /api/sunBase/getCustomer/{id} - Retrieve a customer by ID, requiring JWT authentication.
+**PUT **/api/sunBase/updateCustomer/{id} - Update a customer by ID, requiring JWT authentication.
+**DELETE** /api/sunBase/deleteCustomer/{id} - Delete a customer by ID, requiring JWT authentication.
+**POST** /api/sunBase/sync-customers - Synchronize customer data from a remote API, requiring JWT authentication.
 **Phase 2 Extension**
 Sync Button: Fetch customer list from a remote API and save/update them in the local database.
 
