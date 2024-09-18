@@ -62,12 +62,26 @@ spring.datasource.password=2580
 
 ```
 **API Endpoint **
+
+
 **GET** /api/sunBase/getCustomers - Retrieve all customers, requiring JWT authentication.
+
+
 **GET** /api/sunBase/getCustomer/{id} - Retrieve a customer by ID, requiring JWT authentication.
+
+
 **PUT **/api/sunBase/updateCustomer/{id} - Update a customer by ID, requiring JWT authentication.
+
+
 **DELETE** /api/sunBase/deleteCustomer/{id} - Delete a customer by ID, requiring JWT authentication.
+
+
 **POST** /api/sunBase/sync-customers - Synchronize customer data from a remote API, requiring JWT authentication.
+
+
 **Phase 2 Extension**
+
+
 Sync Button: Fetch customer list from a remote API and save/update them in the local database.
 
 
