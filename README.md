@@ -44,7 +44,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
   "phone": "12789678"
 }
 
-
+```
 
 **Phase 2 Extension**
 Sync Button: Fetch customer list from a remote API and save/update them in the local database.
@@ -52,18 +52,21 @@ Sync Button: Fetch customer list from a remote API and save/update them in the l
 
 Method: POST
 Body:
-json
+```json
 {
   "login_id" : "test@sunbasedata.com",
   "password" :"Test@678"
 }
+```
 Response:
-json
+```json
 {
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QHN1bmJhc2VkYXRhLmNvbSIsImlhdCI6MTUxNjIzOTAyMn0.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
 }
+```
 Get Customer List API:
 
 Method: GET
 
-
+Question Link
+https://drive.google.com/file/d/1xh5p5DpyrwW9uQlOmHg8KC3LIm9HG9OG/view
