@@ -20,7 +20,23 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
 - Delete a customer
 - JWT Authentication
 
+**Installation**
+**Clone the repository:**
 
+**git clone **
+https://github.com/kanhaiyatiwari/SunBase_Assignment.git
+Create a MySQL database:
+
+CREATE DATABASE sunbase;
+
+Import the project into your IDE.
+
+Update the application.properties file with your MySQL database credentials:
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/sunbase
+spring.datasource.username=root
+spring.datasource.password=2580
+```
 **Frontend Screens**
 
 1.Login Screen: User login with JWT authentication.
