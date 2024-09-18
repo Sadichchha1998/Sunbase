@@ -24,7 +24,8 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
 **Clone the repository:**
 
 **git clone **
-https://github.com/kanhaiyatiwari/SunBase_Assignment.git
+https://github.com/Sadichchha1998/Sunbase
+
 Create a MySQL database:
 
 CREATE DATABASE sunbase;
@@ -70,7 +71,7 @@ spring.datasource.password=2580
 **GET** /api/sunBase/getCustomer/{id} - Retrieve a customer by ID, requiring JWT authentication.
 
 
-**PUT **/api/sunBase/updateCustomer/{id} - Update a customer by ID, requiring JWT authentication.
+ **PUT**/api/sunBase/updateCustomer/{id} - Update a customer by ID, requiring JWT authentication.
 
 
 **DELETE** /api/sunBase/deleteCustomer/{id} - Delete a customer by ID, requiring JWT authentication.
