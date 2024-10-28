@@ -38,7 +38,12 @@ public class CustomerServiceImpl  implements CustomerService{
  }
 
  public Optional<Customer> getCustomerById(Long id) {
-     return customerRepository.findById(id);
+	Optional<Customer> customer = customerRepo.findById(id);
+		if(customer.isEmpty()) {
+			throw new CustomerException("This costomer is not present in database");
+		}
+		
+		return customer.get();
  }
 
  public void deleteCustomer(Long id) {
